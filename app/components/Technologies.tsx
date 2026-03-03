@@ -65,7 +65,8 @@ export default function Technologies() {
 
         {/* Category Buttons */}
         <div className="flex justify-center gap-2 mb-16 flex-wrap">
-          {Object.keys(categories).map((category) => (
+          {/* {Object.keys(categories).map((category) => ( */}
+          {(Object.keys(categories) as Array<keyof typeof categories>).map((category) => (
             <button
               key={category}
               onClick={() => setActive(category)}
