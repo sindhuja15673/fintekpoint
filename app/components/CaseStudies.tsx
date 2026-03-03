@@ -17,68 +17,64 @@ export default function CaseStudies() {
           {/* Project 1 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 className="font-semibold text-lg mb-3">
-              Craft Legal – Case Management Platform
+              CraftLegal – Legal Document Automation Platform
             </h3>
             <p className="text-gray-600 text-sm mb-3">
-              Developed a secure legal case tracking system with
-              role-based access and real-time updates.
+              Developed a scalable SaaS platform to automate structured legal document generation.
             </p>
             <ul className="list-disc ml-5 text-gray-600 text-sm space-y-1">
-              <li>Client portal for case status tracking</li>
-              <li>Secure authentication & authorization</li>
-              <li>REST API integration</li>
-              <li>Production deployment & optimization</li>
+              <li>Schema-driven multi-step form engine</li>
+              <li>Secure draft lifecycle with RLS</li>
+              <li>Identity validation logic integration</li>
+              <li>PDF & HTML document preview</li>
             </ul>
           </div>
 
           {/* Project 2 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 className="font-semibold text-lg mb-3">
-              Workflow Automation System
+              Call Queue Dashboard – Real-Time Processing System
             </h3>
             <p className="text-gray-600 text-sm mb-3">
-              Built internal document workflow automation to
-              streamline business operations.
+              Built a rate-limited multi-user queue system for high-volume call processing.
             </p>
             <ul className="list-disc ml-5 text-gray-600 text-sm space-y-1">
-              <li>Automated approval processes</li>
-              <li>Document upload & management</li>
-              <li>Database optimization</li>
-              <li>Reduced manual processing time</li>
+              <li>Redis-based queue with Lua scripting</li>
+              <li>Concurrency & rate limiting controls</li>
+              <li>Real-time dashboard via Socket.IO</li>
+              <li>CSV bulk ingestion pipeline</li>
             </ul>
           </div>
 
           {/* Project 3 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 className="font-semibold text-lg mb-3">
-              Reporting & Analytics Dashboard
+              CourtShots – Booking Photography Platform
             </h3>
             <p className="text-gray-600 text-sm mb-3">
-              Designed dynamic dashboards to visualize financial
-              and operational data.
+              Designed a dynamic photography booking platform with admin CMS.
             </p>
             <ul className="list-disc ml-5 text-gray-600 text-sm space-y-1">
-              <li>Real-time reporting interface</li>
-              <li>Advanced filtering & search</li>
-              <li>Data visualization components</li>
-              <li>Performance optimization</li>
+              <li>Supabase authentication & storage</li>
+              <li>Role-based admin dashboard</li>
+              <li>Automated email confirmations</li>
+              <li>Live content updates without redeployment</li>
             </ul>
           </div>
 
           {/* Project 4 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 className="font-semibold text-lg mb-3">
-              Infrastructure & Deployment Optimization
+              Dynamic Services Website – CMS & Lead Management
             </h3>
             <p className="text-gray-600 text-sm mb-3">
-              Managed production infrastructure and improved
-              deployment workflows.
+              Engineered a fully dynamic business website with content and lead management.
             </p>
             <ul className="list-disc ml-5 text-gray-600 text-sm space-y-1">
-              <li>CI/CD pipeline setup</li>
-              <li>Cloud hosting configuration</li>
-              <li>Application performance tuning</li>
-              <li>Security best practices implementation</li>
+              <li>Database-driven service pages</li>
+              <li>Admin CRUD operations</li>
+              <li>Lead tracking workflow</li>
+              <li>Automated email notifications</li>
             </ul>
           </div>
 
