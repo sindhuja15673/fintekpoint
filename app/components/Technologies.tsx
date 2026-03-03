@@ -49,7 +49,8 @@ export default function Technologies() {
     ],
   };
 
-  const [active, setActive] = useState("All");
+  // const [active, setActive] = useState("All");
+  const [active, setActive] = useState<keyof typeof categories>("All");
 
   return (
     <section id="technology" className="py-24 bg-[#eaf2f7]">
